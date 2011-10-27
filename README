@@ -1,0 +1,32 @@
+== Welcome to Dozer
+
+Dozer is a node.js based website classifier. Some set of website URLs can be
+placed in data.js. Fire up the server and the user can view the website
+full-screen with floating controls. Next moves to the next URL, previous goes
+back.
+
+I was using it for going through a long list of document IDs on
+Notesolution.com. If a document was interesting then I have it set up
+to save the ID in a Redis list if the user clicks the "Current" button
+on the control panel.
+
+The framework of Dozer could be useful to someone who wanted to quickly go
+through a list of websites and classify some aspect of them.
+
+== Installation
+
+You need a working node.js and npm. Then:
+
+npm install haml
+npm install redis
+
+Obviously you need redis isntalled. Also, sass and haml. When everthing is
+ready to go:
+
+./run.sh
+
+Then a user can navigate to:
+
+http://127.0.0.1:8124/
+
+To begin to classify sites.

@@ -1,0 +1,33 @@
+html {
+  background-color: #dddddd;
+  font: 62.5%/1 "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; }
+
+#wrapper {
+  text-align: center; }
+
+.controls {
+  z-index: 99;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  width: 500px;
+  height: 90px; }
+
+#frame {
+  width: 100%;
+  height: 100%; }
+
+a {
+  display: block;
+  float: left; }
+
+.current {
+  float: left; }
+
+iframe {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: block;
+  width: 100%;
+  border: none; }
